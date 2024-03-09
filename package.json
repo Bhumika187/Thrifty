@@ -1,11 +1,27 @@
 {
  
   "dependencies": {
-    "-": "^0.0.1",
-    "react-slider": "^2.0.6",
-    "save-dev": "^0.0.1-security",
-    "webpack": "^5.90.3",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.2"
+ 
+   
+  "-": "^0.0.1",
+ 
+   
+  "gh-pages": "^6.1.1",
+ 
+   
+  "react-slider": "^2.0.6",
+ 
+   
+  "save-dev": "^0.0.1-security",
+ 
+   
+  "webpack": "^5.90.3",
+ 
+   
+  "webpack-cli": "^5.1.4",
+ 
+   
+  "webpack-dev-server": "^5.0.2"
+ 
   }
 }

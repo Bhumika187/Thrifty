@@ -1,8 +1,9 @@
 {
   "name": "myapp",
+  "homepage":"https://Bhumika187.github.io/Thrifty",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Bhumika187.github.io/Thrifty",
+ 
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.11.3",
@@ -24,12 +25,14 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
+    
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy":"npm run build",
-    "deploy": "gh pages -d build"
+    "eject": "react-scripts eject"
+   
   },
   "eslintConfig": {
     "extends": [

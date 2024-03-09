@@ -1,5 +1,4 @@
 import { BsFillBagFill } from "react-icons/bs";
-import PriceRangeSlider from "../Sidebar/Price/Price";
 const Card = ({ img, title, star, reviews, prevPrice, newPrice }) => {
   return (
     <>

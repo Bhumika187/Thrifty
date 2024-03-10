@@ -1,6 +1,6 @@
 {
-  "name": "myapp",
   "homepage":"https://Bhumika187.github.io/Thrifty",
+  "name": "myapp",
   "version": "0.1.0",
   "private": true,
  
@@ -25,7 +25,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    
+
     "predeploy":"npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

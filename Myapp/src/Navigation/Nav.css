@@ -3,17 +3,17 @@ nav {
   border-bottom: 2px solid #f3f3f3;
   justify-content: space-around;
   align-items: center;
-  padding: 20px;
+  padding: 1.25rem;
   z-index: 999;
-  margin-left: 2rem;
+  margin-left: 2rem; /* Default margin */
 }
 
 input {
-  padding: 12px 20px;
+  padding: 0.625rem 1.25rem;
   border: none;
   background: #f7f6f6;
   outline: none;
-  margin-right: 20px;
+  margin-right: 1.25rem;
   border-radius: 5px;
   position: relative;
   width: 14rem;
@@ -22,5 +22,40 @@ input {
 .nav-icons {
   width: 1.5rem;
   height: 1.5rem;
-  margin-left: 2rem;
+  margin-left: 2rem; /* Default margin */
+}
+
+/* Responsive Styles */
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column; /* Change flex direction for smaller screens */
+    align-items: flex-start; /* Align items to the start for smaller screens */
+    padding: 0.625rem; /* Decrease padding for smaller screens */
+    margin-left: 0; /* Remove left margin for smaller screens */
+  }
+  
+  input {
+    margin-right: 0.625rem; /* Adjust margin for smaller screens */
+    width: 100%; /* Set width to 100% for smaller screens */
+  }
+  
+  .nav-icons {
+    margin-left: 0; /* Remove left margin for smaller screens */
+  }
+}
+
+/* Adjustments for medium-sized screens */
+@media (min-width: 768px) and (max-width: 992px) {
+  nav {
+    margin-left: 1rem; /* Adjust margin for medium-sized screens */
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 992px) {
+  nav {
+    margin-left: 2rem; /* Revert margin for larger screens */
+  }
 }

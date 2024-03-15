@@ -1,19 +1,19 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 18rem;
+  margin-left: 18rem; /* Default margin */
   margin-top: 2rem;
   z-index: -2;
 }
 
 .card {
-  margin: 20px;
+  margin: 1.25rem;
   border: 2px solid #ededed;
-  padding: 20px;
+  padding: 1.25rem;
   cursor: pointer;
 }
 
-.card-img{
+.card-img {
   width: 13rem;
   margin-bottom: 1rem;
 }
@@ -33,7 +33,7 @@
 
 .total-reviews {
   font-size: 0.9rem;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 
 .card-price {
@@ -44,4 +44,40 @@
 
 .bag-icon {
   color: #535353;
+}
+
+/* Responsive Styles */
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .card-container {
+    margin-left: 0; /* Remove left margin for smaller screens */
+    justify-content: center; /* Center align cards for smaller screens */
+  }
+  
+  .card {
+    width: calc(50% - 2.5rem); /* Adjust card width for smaller screens */
+  }
+}
+
+/* Adjustments for medium-sized screens */
+@media (min-width: 768px) and (max-width: 992px) {
+  .card-container {
+    margin-left: 15rem; /* Adjust margin for medium-sized screens */
+  }
+  
+  .card {
+    width: calc(33.33% - 2.5rem); /* Adjust card width for medium-sized screens */
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 992px) {
+  .card-container {
+    margin-left: 18rem; /* Revert margin for larger screens */
+  }
+  
+  .card {
+    width: calc(25% - 2.5rem); /* Adjust card width for larger screens */
+  }
 }

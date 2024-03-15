@@ -1,11 +1,50 @@
 .recommended-flex {
   display: flex;
-  margin-left: 20rem;
+  margin-left: 20rem; /* Default margin */
 }
 
 .recommended-title {
-  margin-left: 20rem;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 20px;
+  margin-left: 20rem; /* Default margin */
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  font-size: 1.25rem;
+}
+
+/* Responsive Styles */
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .recommended-flex {
+    flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
+    justify-content: center; /* Center-align flex items on smaller screens */
+    margin-left: 0; /* Remove left margin for smaller screens */
+  }
+  
+  .recommended-title {
+    margin-left: 0; /* Remove left margin for smaller screens */
+    text-align: center; /* Center-align text on smaller screens */
+    font-size: 1rem; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Adjustments for medium-sized screens */
+@media (min-width: 769px) and (max-width: 992px) {
+  .recommended-flex {
+    margin-left: 10rem; /* Adjust margin for medium-sized screens */
+  }
+  
+  .recommended-title {
+    font-size: 1.125rem; /* Adjust font size for medium-sized screens */
+  }
+}
+
+/* Adjustments for larger screens */
+@media (min-width: 993px) {
+  .recommended-flex {
+    margin-left: 20rem; /* Revert margin for larger screens */
+  }
+  
+  .recommended-title {
+    font-size: 1.25rem; /* Revert font size for larger screens */
+  }
 }

@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Thrifty/static/css/main.534db893.css",
+    "main.css": "/Thrifty/static/css/main.b255983b.css",
     "main.js": "/Thrifty/static/js/main.1841869f.js",
     "index.html": "/Thrifty/index.html",
-    "main.534db893.css.map": "/Thrifty/static/css/main.534db893.css.map",
+    "main.b255983b.css.map": "/Thrifty/static/css/main.b255983b.css.map",
     "main.1841869f.js.map": "/Thrifty/static/js/main.1841869f.js.map"
   },
   "entrypoints": [
-    "static/css/main.534db893.css",
+    "static/css/main.b255983b.css",
     "static/js/main.1841869f.js"
   ]
 }

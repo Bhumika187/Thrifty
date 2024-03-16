@@ -44,9 +44,9 @@ li {
 
 /* Adjustments for smaller screens */
 @media (max-width: 768px) {
-  .card {
-    width: 40%; /* Adjust card width for smaller screens */
-  }
+  /* .card {
+    width: 80%; /* Adjust card width for smaller screens */
+  /* } */ 
   
   .card-img {
     width: 100%; /* Adjust card image width for smaller screens */
